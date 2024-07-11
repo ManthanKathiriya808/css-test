@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F3F3FE ;
+    font-family: poppins;
+}
+
+form{
+    border: 1px solid #F3F3FE;
+    width: 30%;
+    height: 55vh;
+    margin: auto;
+    margin-top: 170px;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+
+span{
+    color: red;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+textarea{
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid gainsboro;
+}
+
+.email input{
+    width: 100%;
+}
+
+input{
+    padding: 10px 30px;
+    border-radius: 10px;
+    border:1px solid gainsboro;
+}
+
+.button{
+    margin:0px auto;
+}
+
+button{
+    padding: 10px 40px;
+    color: white;
+    background-color: black;
+}
